@@ -1,0 +1,340 @@
+body {
+    background-color: #6495ED;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+
+}
+
+input {
+    margin-bottom: 19px;
+    width: 246px;
+    height: 42px;
+    background: #F3F3F3;
+    border-radius: 4px;
+    border: none;
+    padding-left: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #5F5C5C
+}
+
+.button {
+    margin-top: 10px;
+    width: 132px;
+    height: 42px;
+    background: #EDBC64;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2E245E;
+    text-decoration: underline;
+}
+
+#bodyBlog {
+    margin: 0;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: #F9F9F9;
+}
+
+header {
+    background-color: #6495ED;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+
+}
+
+#usuarioInfos {
+    display: flex;
+
+}
+
+#imagemdePerfil {
+    width: 49px;
+    height: 46px;
+    border-radius: 100%;
+    margin-left: 14px;
+}
+
+#nomeUsuario {
+    margin-left: 10px;
+    width: 150px;
+    height: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FAFAFA;
+
+}
+
+#btnLogout {
+    margin-right: 39px;
+    width: 97px;
+    height: 30px;
+    background: #EDBC64;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mainBlog {
+    margin-top: 22px;
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+
+
+}
+
+section {
+    margin-top: 30px;
+
+
+}
+
+#post {
+    max-width: 620px;
+    min-width: 550px;
+    max-height: 70px;
+    min-height: 70px;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #989898;
+    padding-left: 16px;
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+
+#post:focus {
+    outline: none;
+}
+
+
+#areaPost {
+
+    width: 620px;
+    height: 110px;
+    border-style: none;
+    box-shadow: 0px 3px 4px 0px #00000040;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #989898;
+    padding-left: 16px;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+
+
+}
+
+#bntPost {
+    width: 25px;
+    height: 25px;
+    background: #EDBC64;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    color: #F8E7E7;
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+    margin-top: 70px;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.imagensUsuarios {
+    width: 71px;
+    height: 70px;
+    border-radius: 100px;
+    margin-left: 21px;
+    margin-top: 14px;
+}
+
+li {
+    width: 630px;
+    height: 210px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.texto,
+.textoEditavel {
+    width: 351px;
+    height: 133px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #5F5C5C;
+    margin: 0;
+}
+
+.postEdit {
+    max-width: 351px;
+    max-height: 133px;
+    min-width: 351px;
+    min-height: 133px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #989898;
+
+}
+
+.nomeUsuário {
+    width: 150px;
+    height: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin-top: 14px;
+    margin-bottom: 0;
+}
+
+.opçõesUsuário {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.Editar,
+.edit2 {
+    border: none;
+    background-color: #FFFFFF;
+    color: #6495ED;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+
+
+}
+
+.Apagar {
+    border: none;
+    background-color: #FFFFFF;
+    color: #ED6464;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+.data {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #989898;
+}
+
+.infos {
+    margin-left: 25px;
+
+}
+
+#nextPag,
+#previousPag {
+
+    margin-right: 39px;
+    width: 100px;
+    height: 45px;
+    background: #EDBC64;
+    border-style: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+
+#numPag {
+    margin-right: 35px;
+    color: #000000;
+    font-size: 23px;
+    margin-bottom: 10px;
+
+}
