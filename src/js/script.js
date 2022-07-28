@@ -213,5 +213,5 @@ for (let i = 0; i < delet.length; i++) {
 
 btnLogout.addEventListener('click', () => {
     localStorage.clear()
-    window.location.href = '/index.html'
+    window.location.href = './src/pages/blog.html'
 })
