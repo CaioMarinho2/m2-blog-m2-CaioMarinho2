@@ -23,7 +23,7 @@ login.addEventListener('submit', async (event) => {
 
 
     if (id.status !== 'error') {
-        window.location.href = '../../src/pages/blog.html'
+        window.location.href = '../pages/blog.html'
         localStorage.setItem('token', id.token)
         localStorage.setItem('userId', id.userId)
 
