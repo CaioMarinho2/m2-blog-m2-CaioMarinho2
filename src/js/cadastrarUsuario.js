@@ -21,7 +21,7 @@ cadastro.addEventListener('submit', async (event) => {
     if (response.status !== 'error') {
         alert('Cadastro realizado com sucesso!')
 
-        window.location.href = './src/pages/blog.html'
+        window.location.href = '../../index.html'
     } else if (response.status === 'error' && response.message === 'avatarUrl must be a image url') {
         alert('A foto de perfil deve ser uma url!')
     } else if (response.status === 'error' && response.message === 'duplicate key value violates unique constraint "UQ_97672ac88f789774dd47f7c8be3"') {
